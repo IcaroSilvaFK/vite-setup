@@ -3,5 +3,5 @@
 // import {BrowserRouter, Routes as Router, Route} from 'react-router-dom'
 
 export function Router() {
-  return;
+  return <div />;
 }

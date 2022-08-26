@@ -1,0 +1,11 @@
+{
+  "window.zoomLevel": 0,
+  "errorLens.fontStyle": "italic",
+  "errorLens.errorColor": "rgba(0,0,0,0)",
+  "errorLens.warningColor": "rgba(0,0,0,0)",
+  "errorLens.infoColor": "rgba(0,0,0,0)",
+  "errorLens.hintColor": "rgba(0,0,0,0)",
+  "errorLens.errorTextColor": "rgb(255,0,0)",
+  "errorLens.warningTextColor": "rgb(255,255,0)",
+  "errorLens.hintTextColor": "rgb(0,255,0)"
+}
