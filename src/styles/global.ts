@@ -9,6 +9,8 @@ export const GlobalStyle = createGlobalStyle`
   body{
     width: 100%;
     height: 100vh;
+
+    font-size: 1rem;
   }
   input,button{
     border: 0;
@@ -20,5 +22,8 @@ export const GlobalStyle = createGlobalStyle`
   a{
     text-decoration: none;
     color: inherit;
+  }
+  ul,ol{
+    list-style: none;
   }
 `;

@@ -1,7 +1,5 @@
+import { Home } from './pages/Home';
+
 export function App() {
-  return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
-  );
+  return <Home />;
 }
