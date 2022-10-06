@@ -10,7 +10,8 @@
     "lint:css": "stylelint ./src/**/*.ts",
     "lint": "eslint --ext src",
     "lint:code": "eslint --fix src",
-    "format": "prettier-eslint --write \"src/**/*.{ts,tsx}\""
+    "format": "prettier-eslint --write \"src/**/*.{ts,tsx}\"",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
@@ -28,12 +29,17 @@
     ]
   },
   "dependencies": {
+    "commitizen": "^4.2.5",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/config-lerna-scopes": "^17.0.2",
     "@frsource/vite-plugin-stylelint": "^1.0.0",
     "@stylelint/postcss-css-in-js": "^0.38.0",
     "@types/react": "^18.0.17",

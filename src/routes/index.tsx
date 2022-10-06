@@ -1,7 +1,10 @@
-// here's the routes
-// yarn add react-router-dom
-// import {BrowserRouter, Routes as Router, Route} from 'react-router-dom'
+import { createBrowserRouter } from 'react-router-dom';
 
-export function Router() {
-  return <div />;
-}
+import { Home } from '../pages/Home';
+
+export const Router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+]);
