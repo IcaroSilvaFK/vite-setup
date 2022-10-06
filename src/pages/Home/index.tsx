@@ -1,3 +1,5 @@
+import { Container } from './styles';
+
 export function Home() {
   return (
     <div>
